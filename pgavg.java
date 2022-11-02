@@ -17,6 +17,7 @@ public class Main {
         double res, sum;
         sum = a + b + c + d;
         res = sum / 4;
+        System.out.println("");
         return res;
     }
 }
