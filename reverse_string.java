@@ -8,7 +8,7 @@ class s1 {
             System.out.println("enter value");
             StringBuilder b = new StringBuilder(sc.next());
             b.delete(0, 2);
-            b.append(" is nice");
+            b.append(" is the value");
             System.out.println(b);
             for (int i = 0; i < b.length() / 2; i++) {
                 int front = i;
