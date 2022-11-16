@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Enter the elements:");
         Scanner read = new Scanner(System.in);
         double score1 = read.nextDouble();
         double score2 = read.nextDouble();
