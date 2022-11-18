@@ -10,8 +10,8 @@ class s1 {
         if (x == 0) {
             return 0;
         }
-        int pownm1 = sum(x, n - 1);
-        int xpown = x * pownm1;
+        int pownm1 = sum(x, n - 1);//decreases the n value
+        int xpown = x * pownm1;//takes value of x and multiplies it
         return xpown;
     }
 
