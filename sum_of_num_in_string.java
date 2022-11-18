@@ -6,8 +6,8 @@ class s1 {
         int b = 0;
         char c[] = a.toCharArray();
         for (int i = 0; i < a.length(); i++) {
-            if (Character.isDigit(c[i])) {
-                b += Character.getNumericValue(c[i]);
+            if (Character.isDigit(c[i])) {            //checks if it is a digit or not
+                b += Character.getNumericValue(c[i]); //find int value in string
             }
         }
         System.out.println(b);
