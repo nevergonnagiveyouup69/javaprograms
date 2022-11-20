@@ -5,7 +5,7 @@ class s1 {
     public static void main(String[] args) {
         int i, j, n;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the no of lines");
+        System.out.println("Enter the no of lines of the pattern");
         n = sc.nextInt();
         for (i = n; i >= 1; i--) {
             for (j = i; j < n; j++)
