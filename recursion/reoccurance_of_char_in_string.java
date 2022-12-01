@@ -26,9 +26,9 @@ class s1 {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter string");
+        System.out.println("enter the string");
         String a = sc.nextLine();
-        System.out.println("enter char");
+        System.out.println("enter the char");
         String b = sc.next();
         char c = b.charAt(0);
         print(a, 0, c);
