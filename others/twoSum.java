@@ -7,7 +7,7 @@ class twoSum {
             int diff = target - nums[i];
             for (int j = i + 1; j < max; j++) {
                 if (nums[j] == diff) {
-                    return new int[] { i, j };
+                    return new int[] { i, j };#from leetcode
                 }
             }
         }
